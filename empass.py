@@ -150,7 +150,6 @@ def main(argv):
  #No value to xrowid give the default value of 4 characters showing, the rest are in the jumble
  xrowid = 0
  alternate_hands = False
- phrase = '1pyerror'
  for opt, arg in opts:
                         #Prints help
   if opt in ("-h", "--help"):
@@ -176,7 +175,7 @@ def main(argv):
    usage()
    sys.exit()
  """
- if phrase == '1pyerror' or xrowid >= passwordLength:
+ if xrowid >= passwordLength:
     usage()
     sys.exit(2)
  else: 
