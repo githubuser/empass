@@ -1,6 +1,6 @@
 #!/usr/bin/python
 """empass - Reusable Mnemonic Passwords
-
+""" test
 Usage: python empass.py [options]
 
 Options:
